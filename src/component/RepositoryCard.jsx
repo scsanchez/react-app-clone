@@ -9,7 +9,7 @@ const RepositoryCard = (props) => {
             <Card.Body>
                 <Card.Title>{repositorie.name}</Card.Title>
                 <Card.Text>{repositorie.description}</Card.Text>
-                <Button href={repositorie.html_url} target="_blank" variant="secondary" >Repositorie Page</Button>
+                <Button href={repositorie.html_url} target="_blank" variant="secondary" >Repository Page</Button>
             </Card.Body>
         </Card>
     );
